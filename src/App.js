@@ -4,7 +4,6 @@ import Home from "./Components/Pages/Home/Home";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import Sobre from "./Components/Pages/Sobre/Sobre";
-import Loja from "./Components/Pages/Loja/Loja";
 import QtdProvider from "./context/qtdContext";
 import MenuMobile from "./Components/Header/MenuMobile/MenuMobile";
 import { useEffect, useState } from "react";
@@ -34,7 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/sobre" element={<Sobre />}></Route>
-            <Route path="/loja" element={<Loja />}></Route>
+           
             <Route path="/contato" element={<Contato />}></Route>
           </Routes>
           <Footer />
